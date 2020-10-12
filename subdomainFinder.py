@@ -4,8 +4,6 @@
 
 import requests
 
-url = "example.com"
-
 def request(url):
     try:
         return requests.get("http://" + url)
