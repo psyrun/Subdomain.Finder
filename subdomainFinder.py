@@ -1,3 +1,7 @@
+# You can find subdomain using this python script.
+# Just replace the url "example.com" to your target url.
+# OpenSource <3
+
 import requests
 
 url = "example.com"
