@@ -1,6 +1,6 @@
 import requests
 
-url = "google.com"
+url = "example.com"
 
 def request(url):
     try:
@@ -8,7 +8,7 @@ def request(url):
     except requests.exceptions.ConnectionError:
         pass
 
-target_url = "google.com"
+target_url = "example.com"
 
 with open("./subdomainList.txt","r") as wordlist_file:
     for line in wordlist_file:
