@@ -6,5 +6,5 @@ Target scanning and enumeration is the backbone of web pentesting. So this tool 
 
 ```css
     $multithreading
-    $brute-force module
+    $Brute Forcing
 ```
