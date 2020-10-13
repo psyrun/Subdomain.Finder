@@ -1,5 +1,5 @@
 # You can find subdomain using this python script.
-# Just replace the url "example.com" to your target url.
+# Just replace the target_url "example.com" to your target url.
 # OpenSource <3
 
 import requests
@@ -20,4 +20,3 @@ with open("./subdomainList.txt","r") as wordlist_file:
         response = request(test_url)
         if response:
             print("[+] Discovered subdomain -->" + test_url)
-
